@@ -1,0 +1,26 @@
+@prefix rdfs:   <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf:    <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix owl:    <http://www.w3.org/2002/07/owl#> .
+@prefix schema: <http://schema.org/> .
+@prefix bow:    <https://betweenourworlds.org/ontology/> .
+
+bow:Stream a rdfs:Class ;
+    rdfs:label "Stream" ;
+    rdfs:comment "The stream of an anime by a streaming service." ;
+    rdfs:subClassOf schema:Thing .
+
+bow:object owl:ObjectProperty ;
+    rdfs:label "object" ;
+    rdfs:comment "Similar to schema:object, but also for classes defined by this ontology." ;
+    rdfs:domain bow:Stream .
+
+bow:providedBy owl:ObjectProperty ;
+    rdfs:label "provided by" ;
+    rdfs:comment "Refers to the entity that provides the stream, i.e., the streaming service." ;
+    rdfs:domain bow:Stream .
+
+bow:provides owl:ObjectProperty ;
+    rdfs:label "provides" ;
+    rdfs:comment "Refers to the stream, i.e., the streaming of an anime provided by a streaming service." ;
+    rdfs:range bow:Stream ;
+    owl:inverseOf bow:providedBy .
