@@ -17,7 +17,8 @@ The preferred prefix is `bow`.
 None.
 
 ## Contributions
-Contributions are welcome, and bug reports or pull requests are always helpful. If you plan to change a larger part of the data, it's best to contact us first.
+Contributions are welcome, and bug reports or pull requests are always helpful.
+If you want to see semantic changes to the ontology, it's best to contact us first.
 
 ## License
 MIT &copy; Between Our Worlds
