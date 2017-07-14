@@ -18,7 +18,7 @@ None.
 
 ## Contributions
 Contributions are welcome, and bug reports or pull requests are always helpful.
-If you want to see semantic changes to the ontology, it's best to contact us first.
+However, if you want to see semantic changes to the ontology, it's best to contact us first.
 
 ## License
 MIT &copy; Between Our Worlds
