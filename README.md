@@ -1,14 +1,17 @@
 # Between Our Worlds Ontology
 
+The namespace of the ontology is `https://betweenourworlds.org/ontology/`.
+The preferred prefix is `bow`.
+
 ## Classes
-- Stream: the stream of an anime by a streaming service.
+- `bow:stream`: the stream of an anime by a streaming service.
 
 ## Properties
 
 ### Object
-- bow:object: similar to schema:object, but also for classes defined by this ontology.
-- bow:providedBy: refers to the entity that provides the stream, i.e., the streaming service.
-- bow:provides: refers to the stream, i.e., the streaming of an anime provided by a streaming service.
+- `bow:object`: similar to [schema:object](http://schema.org/object), but also for classes defined by this ontology.
+- `bow:providedBy`: refers to the entity that provides the stream, i.e., the streaming service.
+- `bow:provides`: refers to the stream, i.e., the streaming of an anime provided by a streaming service.
 
 ### Datatype
 None.
