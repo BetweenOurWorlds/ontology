@@ -20,7 +20,7 @@ bow:Stream a rdfs:Class ;
 
 bow:object a owl:ObjectProperty ;
     rdfs:label "object" ;
-    rdfs:comment "Similar to schema:object, but also for classes defined by this ontology." ;
+    rdfs:comment "Similar to http://schema.org/object, but also for classes defined by this ontology." ;
     rdfs:domain bow:Stream .
 
 bow:providedBy a owl:ObjectProperty ;
