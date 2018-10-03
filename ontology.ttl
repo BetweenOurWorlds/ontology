@@ -24,7 +24,9 @@ b: a owl:Ontology, voaf:Vocabulary, schema:Thing, schema:CreativeWork;
     dct:modified                  "2018-09-27"^^xsd:date;
     owl:versionInfo               "1.2"^^xsd:decimal;
     vann:preferredNamespacePrefix "bow";
-    vann:preferredNamespaceUri    "https://betweenourworlds.org/ontology/".
+    vann:preferredNamespaceUri    "https://betweenourworlds.org/ontology/";
+    schema:license                <http://creativecommons.org/publicdomain/zero/1.0> ;
+    dct:license                   <http://creativecommons.org/publicdomain/zero/1.0> .
 
 bow:Stream a rdfs:Class ;
     rdfs:label       "Stream" ;
