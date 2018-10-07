@@ -10,4 +10,4 @@ Contributions are welcome, and bug reports or pull requests are always helpful.
 However, if you want to see semantic changes to the ontology, it's best to contact us first.
 
 ## License
-MIT &copy; Between Our Worlds
+[CC-0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
